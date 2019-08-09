@@ -6,7 +6,8 @@
 
 ### Requirements :
 ```
-urllib3==1.24.3
+python3
+urllib3
 ```
 
 ### Usage / Example :

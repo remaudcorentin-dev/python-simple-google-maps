@@ -11,5 +11,5 @@ setup(
 	author_email='remaudcorentin.dev@gmail.com',
 	license='MIT',
 	zip_safe=False,
-	install_requires=[],
+	install_requires=['urllib3],
 	)
