@@ -1,5 +1,5 @@
 # python-simple-google-maps
-##### v0.0.1
+##### v0.0.2
 
 ### Installation :
 `pip install python-simple-google-maps==0.0.2`  
