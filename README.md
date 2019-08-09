@@ -26,7 +26,6 @@ get_google_map_url(**data)
 
 # 'https://maps.googleapis.com/maps/api/staticmap?center=Auckland&markers=color:red|Auckland&size=1200x800&key=AIzaSyAofozPey7CK3iThCxs0-1bdTdVly1QBGw&signature=29Sb4lQDjByRSIaAmkqYp4njHWk='
 
-
 ```  
 
 Enjoy :)  
