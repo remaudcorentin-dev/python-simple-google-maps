@@ -9,9 +9,6 @@ import re
 
 from urllib.parse import urlparse, quote_plus
 
-GOOGLE_MAPS_API_KEY = "AIzaSyAofozPey7CK3iThCxs0-1bdTdVly1QBGw"
-GOOGLE_MAPS_SECRET_KEY = "76XgR6vY7puGmmytCWb-t6uC18E="
-
 def sign_url(input_url=None, secret=None):
     """ Sign a request URL with a URL signing secret.
 
@@ -58,7 +55,7 @@ def get_center_from_address(address):
     return center
 
 
-def get_google_map_url(address="", gps_coordinates="", sizes=(300, 180), zoom=15):
+def get_google_map_url(address="", gps_coordinates="", sizes=(300, 180), zoom=15, GOOGLE_MAPS_API_KEY="", GOOGLE_MAPS_SECRET_KEY=""):
     """
     Return an url to be called to get the static map (png) from the google API from an address or cgp coordinates.
     It uses GPS coordinate if available, otherwise the address will be used.
