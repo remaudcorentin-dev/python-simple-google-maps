@@ -18,8 +18,8 @@ from simple_google_maps import get_google_map_url
 data = {
   'address': 'Auckland',
   'sizes': (1200, 800),
-  'GOOGLE_MAPS_API_KEY': 'AIzaSyAofozPey7CK3iThCxs0-1bdTdVly1QBGw',
-  'GOOGLE_MAPS_SECRET_KEY': '76XgR6vY7puGmmytCWb-t6uC18E='
+  'GOOGLE_MAPS_API_KEY': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+  'GOOGLE_MAPS_SECRET_KEY': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 }
 
 get_google_map_url(**data)
