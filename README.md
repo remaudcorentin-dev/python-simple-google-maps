@@ -2,7 +2,7 @@
 ##### v0.0.1
 
 ### Installation :
-`pip install python-simple-google-maps`  
+`pip install python-simple-google-maps==0.0.2`  
 
 ### Requirements :
 ```
